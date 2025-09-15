@@ -1,0 +1,40 @@
+@import 'tailwindcss';
+
+@theme {
+  /* breakpoint */
+  --breakpoint-xs: 576px;
+  --breakpoint-mdlg: 992px;
+
+  /* amimation */
+  --animate-page-line1: page-typing 3s steps(16),
+    page-effect 0.5s step-end 6 alternate;
+
+  --animate-page-line2: page-typing 3s steps(1), page-typing 3s steps(14) 3s,
+    page-effect 0.5s step-end 3s 10 alternate;
+
+  --animate-page-line-3: page-showup 6s steps(1), page-fadein 1s 6s;
+
+  @keyframes page-typing {
+    0% {
+      width: 0%;
+    }
+  }
+
+  @keyframes page-effect {
+    50% {
+      border-right: 3px solid black;
+    }
+  }
+
+  @keyframes page-fadein {
+    0% {
+      opacity: 0%;
+    }
+  }
+
+  @keyframes page-showup {
+    0% {
+      opacity: 0%;
+    }
+  }
+}
