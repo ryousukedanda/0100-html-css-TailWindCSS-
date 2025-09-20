@@ -1,6 +1,22 @@
 @import 'tailwindcss';
 
 @theme {
+  /* color */
+  --color-dark: #55655c;
+  --color-weak-color: #677772;
+  --color-light: #fefefe;
+  --color-light2: #f9f9f9;
+  --color-primary-color: #42b883;
+  --color-primary-color-darker: #0d864f;
+  --color-secondary-color: #1c3041;
+  --color-dark: #55655c;
+
+  /* font-family */
+  --font-inter: Inter, Inter Fallback;
+
+  /* shadow */
+  --shadow-light: 1px 1px 8px 4px #f9f9f9;
+
   /* breakpoint */
   --breakpoint-xs: 576px;
   --breakpoint-mdlg: 992px;
